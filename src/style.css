@@ -1,0 +1,32 @@
+/* stylelint-disable CssSyntaxError */
+@font-face {
+    font-family: ' Arial, sans-serif';
+    src: url('./my-font.woff2') format('woff2'),
+      url('./my-font.woff') format('woff');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 2rem;
+    color: red;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
